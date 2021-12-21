@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 1%, rgba(9,81,121,1) 48%, rgba(84,121,129,1) 83%);
+}
+.header {
+  width: 100%;
+}
+.navoption {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px;
+}
+.menu {
+  display: flex;
+  align-items: stretch;
+  margin: 8px;
+  text-align: start;
+}
+#spanvini {
+  margin-left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+#spango {
+  color: cyan;
+  font-weight: bold;
+  font-size: 28px;
+}
+.linkedin {
+  font-size: 28px;
+  color: rgb(68, 114, 199);
+  margin: 2px;
+}
+.github {
+  font-size: 28px;
+  color: rgba(235, 63, 10, 0.897);
+  margin: 2px;
+}
+.card-apresentacao {
+  display: inline-block;
+  margin-top: 30px;
+  width: 25%;
+  text-align: center;
+  background: rgb(47, 51, 56);
+}
+.card-apresentacao h3 {
+  font-weight: 550;
+  font-size: 22px;
+  color: white;
+  margin: 30px;
+}
+.card-apresentacao img {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+
+.card-apresentacao .conteudo {
+    color: white;
+  font-weight: 400;
+  text-align: center;
+  margin: 5px;
+}
+.card-estudos{
+    margin-left: 10px;
+    display:inline-block;
+    width: 70%;
+    height: 30%;
+    color: white;
+    background: url("https://blog-geek-midia.s3.amazonaws.com/wp-content/uploads/2019/12/12165542/golang-2.png");
+}
+.card-estudos img{
+    width: 50%;
+    height: 30%;
+}
+.card-estudos h3{
+    font-weight: 550;
+    font-size: 22px;
+    color: white;
+    margin: 18px;
+
+}
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background: rgb(33, 37, 41);
+}
+.footer-list {
+  display: inline-block;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.footer-items {
+  margin: 10px;
+  color: white;
+  display: inline-block;
+}
